@@ -1,5 +1,5 @@
 ---
-title: "Check Debian Package Source"
+title: "Upgrade Single Debian Package Source"
 date: 2019-09-30T00:20:25+08:00
 tags: ["debian", "package", "deb", "upgrade", "linux"]
 draft: false
