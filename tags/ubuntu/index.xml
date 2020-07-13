@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ubuntu on Linux | IT Quicktasks</title>
+    <link>https://ismael.casimpan.com/quicktasks-linux/tags/ubuntu/</link>
+    <description>Recent content in ubuntu on Linux | IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 02 Oct 2019 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://ismael.casimpan.com/quicktasks-linux/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Debian/Ubuntu Upgradable Packages List</title>
+      <link>https://ismael.casimpan.com/quicktasks-linux/debian-upgradable-list/</link>
+      <pubDate>Wed, 02 Oct 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-linux/debian-upgradable-list/</guid>
+      <description>icasimpan@example.org:~$ sudo apt list --upgradable Listing... Done apache2/xenial-updates 2.4.18-2ubuntu3.9 amd64 [upgradable from: 2.4.18-2ubuntu3.8] apache2-bin/xenial-updates 2.4.18-2ubuntu3.9 amd64 [upgradable from: 2.4.18-2ubuntu3.8] apache2-data/xenial-updates 2.4.18-2ubuntu3.9 all [upgradable from: 2.4.18-2ubuntu3.8] apache2-utils/xenial-updates 2.4.18-2ubuntu3.9 amd64 [upgradable from: 2.4.18-2ubuntu3.8] base-files/xenial-updates 9.4ubuntu4.7 amd64 [upgradable from: 9.4ubuntu4.6] binutils/xenial-updates 2.26.1-1ubuntu1~16.04.7 amd64 [upgradable from: 2.26.1-1ubuntu1~16.04.6] bsdutils/xenial-updates 1:2.27.1-6ubuntu3.6 amd64 [upgradable from: 1:2.27.1-6ubuntu3.4] ca-certificates/xenial-updates 20170717~16.04.2 all [upgradable from: 20170717~16.04.1] cloud-init/xenial-updates 18.4-0ubuntu1~16.04.2 all [upgradable from: 18.2-4-g05926e48-0ubuntu1~16.04.2] cloud-initramfs-copymods/xenial-updates 0.27ubuntu1.6 all [upgradable from: 0.27ubuntu1.5] cloud-initramfs-dyn-netconf/xenial-updates 0.27ubuntu1.6 all [upgradable from: 0.</description>
+    </item>
+    
+    <item>
+      <title>Build an Ubuntu Kernel</title>
+      <link>https://ismael.casimpan.com/quicktasks-linux/build-ubuntu-kernel/</link>
+      <pubDate>Mon, 30 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-linux/build-ubuntu-kernel/</guid>
+      <description>See https://wiki.ubuntu.com/Kernel/BuildYourOwnKernel</description>
+    </item>
+    
+    <item>
+      <title>Directory not Found in Debian Apache</title>
+      <link>https://ismael.casimpan.com/quicktasks-linux/directory-not-found-apache-debian/</link>
+      <pubDate>Mon, 30 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-linux/directory-not-found-apache-debian/</guid>
+      <description>Some SSL Certs needs to validate through a text file served in apache. Something like: http://example.org/.well-known/pki-validation/F70E08C160E9B8C7GB488B8AEB246D11B.txt
+Solution: Add similar configuration in the virtualhost file in apache:
+Alias /.well-known/pki-validation/ /var/www/sites/example.org/.well-known/pki-validation/ &amp;lt;Directory &amp;quot;/var/html/example.org/.well-known/pki-validation&amp;quot;&amp;gt; Order allow,deny Allow from all Satisfy all &amp;lt;/Directory&amp;gt;  </description>
+    </item>
+    
+    <item>
+      <title>Mark Packages in Debian so it doesn&#39;t get updated</title>
+      <link>https://ismael.casimpan.com/quicktasks-linux/blacklist-package-upgrade-in-debian/</link>
+      <pubDate>Mon, 30 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-linux/blacklist-package-upgrade-in-debian/</guid>
+      <description>apt hold &amp;lt;package&amp;gt;  See https://www.tecmint.com/disable-lock-blacklist-package-updates-ubuntu-debian-apt/</description>
+    </item>
+    
+    <item>
+      <title>Updating an Debian/Ubuntu OS that is no longer supported</title>
+      <link>https://ismael.casimpan.com/quicktasks-linux/upgrading-unsupported-debian-os/</link>
+      <pubDate>Mon, 30 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-linux/upgrading-unsupported-debian-os/</guid>
+      <description>In our example, we have Debian Squeeze (6.0) and it&amp;rsquo;s been unsupported since Feb 2016. We can no longer install nor update the packages (of course, limited to what&amp;rsquo;s was available when it was last supported) until you point it to another source&amp;hellip;the archives.
+So, in /etc/apt/sources.list, add you will see:
+deb http://ftp.us.debian.org/debian/ squeeze main deb-src http://ftp.us.debian.org/debian/ squeeze main  Replace it with:
+deb http://archive.debian.org/debian squeeze main deb http://archive.debian.org/debian squeeze-lts main  and you can now access &amp;lsquo;apt-get&amp;rsquo; or &amp;lsquo;dpkg&amp;rsquo; as before (but limited to what&amp;rsquo;s in the archive).</description>
+    </item>
+    
+  </channel>
+</rss>

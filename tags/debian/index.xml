@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>debian on Linux | IT Quicktasks</title>
+    <link>https://ismael.casimpan.com/quicktasks-linux/tags/debian/</link>
+    <description>Recent content in debian on Linux | IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 02 Oct 2019 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://ismael.casimpan.com/quicktasks-linux/tags/debian/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Debian/Ubuntu Upgradable Packages List</title>
+      <link>https://ismael.casimpan.com/quicktasks-linux/debian-upgradable-list/</link>
+      <pubDate>Wed, 02 Oct 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-linux/debian-upgradable-list/</guid>
+      <description>icasimpan@example.org:~$ sudo apt list --upgradable Listing... Done apache2/xenial-updates 2.4.18-2ubuntu3.9 amd64 [upgradable from: 2.4.18-2ubuntu3.8] apache2-bin/xenial-updates 2.4.18-2ubuntu3.9 amd64 [upgradable from: 2.4.18-2ubuntu3.8] apache2-data/xenial-updates 2.4.18-2ubuntu3.9 all [upgradable from: 2.4.18-2ubuntu3.8] apache2-utils/xenial-updates 2.4.18-2ubuntu3.9 amd64 [upgradable from: 2.4.18-2ubuntu3.8] base-files/xenial-updates 9.4ubuntu4.7 amd64 [upgradable from: 9.4ubuntu4.6] binutils/xenial-updates 2.26.1-1ubuntu1~16.04.7 amd64 [upgradable from: 2.26.1-1ubuntu1~16.04.6] bsdutils/xenial-updates 1:2.27.1-6ubuntu3.6 amd64 [upgradable from: 1:2.27.1-6ubuntu3.4] ca-certificates/xenial-updates 20170717~16.04.2 all [upgradable from: 20170717~16.04.1] cloud-init/xenial-updates 18.4-0ubuntu1~16.04.2 all [upgradable from: 18.2-4-g05926e48-0ubuntu1~16.04.2] cloud-initramfs-copymods/xenial-updates 0.27ubuntu1.6 all [upgradable from: 0.27ubuntu1.5] cloud-initramfs-dyn-netconf/xenial-updates 0.27ubuntu1.6 all [upgradable from: 0.</description>
+    </item>
+    
+    <item>
+      <title>Check Debian Installed Packages</title>
+      <link>https://ismael.casimpan.com/quicktasks-linux/check-for-installed-packages/</link>
+      <pubDate>Mon, 30 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-linux/check-for-installed-packages/</guid>
+      <description>apt list --installed  See https://askubuntu.com/questions/17823/how-to-list-all-installed-packages</description>
+    </item>
+    
+    <item>
+      <title>Check Debian Package Content</title>
+      <link>https://ismael.casimpan.com/quicktasks-linux/check-debian-package-content/</link>
+      <pubDate>Mon, 30 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-linux/check-debian-package-content/</guid>
+      <description>dpkg-query -L &amp;lt;package_name&amp;gt;  </description>
+    </item>
+    
+    <item>
+      <title>Check Debian Package List</title>
+      <link>https://ismael.casimpan.com/quicktasks-linux/check-debian-package-list/</link>
+      <pubDate>Mon, 30 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-linux/check-debian-package-list/</guid>
+      <description>apt-cache pkgnames  </description>
+    </item>
+    
+    <item>
+      <title>Check Debian Package Source</title>
+      <link>https://ismael.casimpan.com/quicktasks-linux/check-debian-package-source/</link>
+      <pubDate>Mon, 30 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-linux/check-debian-package-source/</guid>
+      <description>dpkg -s &amp;lt;package&amp;gt; apt-cache showpkg &amp;lt;package&amp;gt;  See details in https://askubuntu.com/questions/8560/how-do-i-find-out-which-repository-a-package-comes-from</description>
+    </item>
+    
+    <item>
+      <title>Check Debian Specific Package Update Info</title>
+      <link>https://ismael.casimpan.com/quicktasks-linux/check-specific-debian-package-update-info/</link>
+      <pubDate>Mon, 30 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-linux/check-specific-debian-package-update-info/</guid>
+      <description>alaa@aa-lu:~$ apt-cache policy vlc vlc: Installed: 2.0.8-0ubuntu0.13.04.1 Candidate: 2.0.8-0ubuntu0.13.04.1 Version table: *** 2.0.8-0ubuntu0.13.04.1 0 500 http://ae.archive.ubuntu.com/ubuntu/ raring-updates/universe i386 Packages 500 http://security.ubuntu.com/ubuntu/ raring-security/universe i386 Packages 100 /var/lib/dpkg/status 2.0.6-1 0 500 http://ae.archive.ubuntu.com/ubuntu/ raring/universe i386 Packages  See https://askubuntu.com/questions/340530/how-can-i-check-the-available-version-of-a-package-in-the-repositories</description>
+    </item>
+    
+    <item>
+      <title>Debian Package List To Be Updated</title>
+      <link>https://ismael.casimpan.com/quicktasks-linux/debian-package-list-to-be-updated/</link>
+      <pubDate>Mon, 30 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-linux/debian-package-list-to-be-updated/</guid>
+      <description>/usr/lib/update-notifier/apt-check -p  </description>
+    </item>
+    
+    <item>
+      <title>Debian Package Search</title>
+      <link>https://ismael.casimpan.com/quicktasks-linux/debian-package-search/</link>
+      <pubDate>Mon, 30 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-linux/debian-package-search/</guid>
+      <description>root@jenkins3:~# apt-cache search chromedriver chromium-chromedriver - WebDriver driver for the Chromium Browser chromium-chromedriver-dbg - chromium-chromedriver debug symbols oxideqt-chromedriver - Web browser engine for Qt (transitional package)  </description>
+    </item>
+    
+    <item>
+      <title>Debian Package Uninstall</title>
+      <link>https://ismael.casimpan.com/quicktasks-linux/debian-package-uninstall/</link>
+      <pubDate>Mon, 30 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-linux/debian-package-uninstall/</guid>
+      <description>sudo apt-get remove &amp;lt;application_name&amp;gt;  some details in https://askubuntu.com/questions/1143/how-can-i-uninstall-software</description>
+    </item>
+    
+    <item>
+      <title>Debian Repos Location</title>
+      <link>https://ismael.casimpan.com/quicktasks-linux/debian-repos-location/</link>
+      <pubDate>Mon, 30 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-linux/debian-repos-location/</guid>
+      <description>/etc/apt/sources.list  More info in https://help.ubuntu.com/community/Repositories/CommandLine</description>
+    </item>
+    
+    <item>
+      <title>Debian Summary of Package For Update</title>
+      <link>https://ismael.casimpan.com/quicktasks-linux/debian-summary-of-package-for-update/</link>
+      <pubDate>Mon, 30 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-linux/debian-summary-of-package-for-update/</guid>
+      <description>/usr/lib/update-notifier/apt-check --human-readable  </description>
+    </item>
+    
+    <item>
+      <title>Debian: Show package information</title>
+      <link>https://ismael.casimpan.com/quicktasks-linux/debian-show-package-information/</link>
+      <pubDate>Mon, 30 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-linux/debian-show-package-information/</guid>
+      <description>root@jenkins3:~# apt-cache showpkg chromium-chromedriver Package: chromium-chromedriver Versions: 62.0.3202.62-0ubuntu0.14.04.1204 (/var/lib/apt/lists/mirrors.digitalocean.com_ubuntu_dists_trusty-updates_universe_binary-amd64_Packages) (/var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_trusty-security_universe_binary-amd64_Packages) Description Language: File: /var/lib/apt/lists/mirrors.digitalocean.com_ubuntu_dists_trusty_universe_binary-amd64_Packages MD5: 2e6e3c36fa55c5630ac7d648c44010d7 Description Language: en File: /var/lib/apt/lists/mirrors.digitalocean.com_ubuntu_dists_trusty_universe_i18n_Translation-en MD5: 2e6e3c36fa55c5630ac7d648c44010d7 34.0.1847.116-0ubuntu2 (/var/lib/apt/lists/mirrors.digitalocean.com_ubuntu_dists_trusty_universe_binary-amd64_Packages) Description Language: File: /var/lib/apt/lists/mirrors.digitalocean.com_ubuntu_dists_trusty_universe_binary-amd64_Packages MD5: 2e6e3c36fa55c5630ac7d648c44010d7 Description Language: en File: /var/lib/apt/lists/mirrors.digitalocean.com_ubuntu_dists_trusty_universe_i18n_Translation-en MD5: 2e6e3c36fa55c5630ac7d648c44010d7 Reverse Depends: chromium-chromedriver:i386,chromium-chromedriver chromium-chromedriver-dbg,chromium-chromedriver 51.0.2704.79-0ubuntu0.14.04.1.1121 chromium-chromedriver:i386,chromium-chromedriver chromium-chromedriver-dbg,chromium-chromedriver 34.0.1847.116-0ubuntu2 Dependencies: 62.0.3202.62-0ubuntu0.14.04.1204 - libc6 (2 2.15) libfontconfig1 (2 2.9.0) libgcc1 (2 1:4.1.1) libglib2.0-0 (2 2.12.0) libnspr4 (18 2:4.9-2~) libnspr4-0d (2 1.8.0.10) libnss3 (18 2:3.13.4-2~) libnss3-1d (2 3.</description>
+    </item>
+    
+    <item>
+      <title>Directory not Found in Debian Apache</title>
+      <link>https://ismael.casimpan.com/quicktasks-linux/directory-not-found-apache-debian/</link>
+      <pubDate>Mon, 30 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-linux/directory-not-found-apache-debian/</guid>
+      <description>Some SSL Certs needs to validate through a text file served in apache. Something like: http://example.org/.well-known/pki-validation/F70E08C160E9B8C7GB488B8AEB246D11B.txt
+Solution: Add similar configuration in the virtualhost file in apache:
+Alias /.well-known/pki-validation/ /var/www/sites/example.org/.well-known/pki-validation/ &amp;lt;Directory &amp;quot;/var/html/example.org/.well-known/pki-validation&amp;quot;&amp;gt; Order allow,deny Allow from all Satisfy all &amp;lt;/Directory&amp;gt;  </description>
+    </item>
+    
+    <item>
+      <title>gpg key expired when doing &#39;apt-get update&#39;</title>
+      <link>https://ismael.casimpan.com/quicktasks-linux/gpg-key-expired-apt-get-update/</link>
+      <pubDate>Mon, 30 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-linux/gpg-key-expired-apt-get-update/</guid>
+      <description>If you&amp;rsquo;re seeing something like this:
+W: An error occurred during the signature verification. The repository is not updated and the previous index files will be used. GPG error: https://packagecloud.io/github/git-lfs/ubuntu xenial InRelease: The following signatures couldn&#39;t be verified because the public key is not available: NO_PUBKEY 6B05F25D762E3157 W: Failed to fetch https://packagecloud.io/github/git-lfs/ubuntu/dists/xenial/InRelease The following signatures couldn&#39;t be verified because the public key is not available: NO_PUBKEY 6B05F25D762E3157 W: Some index files failed to download.</description>
+    </item>
+    
+    <item>
+      <title>Install Java8 in Debian</title>
+      <link>https://ismael.casimpan.com/quicktasks-linux/install-java8-debian/</link>
+      <pubDate>Mon, 30 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-linux/install-java8-debian/</guid>
+      <description>sudo add-apt-repository ppa:webupd8team/java sudo apt-get update sudo apt-get install oracle-java8-installer  More details in https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-get-on-ubuntu-16-04</description>
+    </item>
+    
+    <item>
+      <title>Inventory of packages installed/de-installed</title>
+      <link>https://ismael.casimpan.com/quicktasks-linux/debian-packages-inventory/</link>
+      <pubDate>Mon, 30 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-linux/debian-packages-inventory/</guid>
+      <description>dpkg --get-selections  </description>
+    </item>
+    
+    <item>
+      <title>Locations of PPA in Ubuntu</title>
+      <link>https://ismael.casimpan.com/quicktasks-linux/locations-of-ppa-ubuntu/</link>
+      <pubDate>Mon, 30 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-linux/locations-of-ppa-ubuntu/</guid>
+      <description>/etc/apt/sources.list.d/  More info in https://askubuntu.com/questions/57326/where-is-the-ppa-sources-config-file</description>
+    </item>
+    
+    <item>
+      <title>Mark Packages in Debian so it doesn&#39;t get updated</title>
+      <link>https://ismael.casimpan.com/quicktasks-linux/blacklist-package-upgrade-in-debian/</link>
+      <pubDate>Mon, 30 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-linux/blacklist-package-upgrade-in-debian/</guid>
+      <description>apt hold &amp;lt;package&amp;gt;  See https://www.tecmint.com/disable-lock-blacklist-package-updates-ubuntu-debian-apt/</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu: Automatic Security Updates</title>
+      <link>https://ismael.casimpan.com/quicktasks-linux/ubuntu-automatic-security-updates/</link>
+      <pubDate>Mon, 30 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-linux/ubuntu-automatic-security-updates/</guid>
+      <description> https://help.ubuntu.com/community/AutomaticSecurityUpdates http://packages.ubuntu.com/search?keywords=unattended-upgrades  </description>
+    </item>
+    
+    <item>
+      <title>Update Debian PHP 5.5 To 5.6</title>
+      <link>https://ismael.casimpan.com/quicktasks-linux/update-debian-php5.5-to-5.6/</link>
+      <pubDate>Mon, 30 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-linux/update-debian-php5.5-to-5.6/</guid>
+      <description>See https://www.digitalocean.com/community/questions/how-to-upgrade-from-php-v-5-5-9-to-v-5-6</description>
+    </item>
+    
+    <item>
+      <title>Update Debian PHP 7.0 To 7.1</title>
+      <link>https://ismael.casimpan.com/quicktasks-linux/update-debian-php-7.0-to-7.1/</link>
+      <pubDate>Mon, 30 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-linux/update-debian-php-7.0-to-7.1/</guid>
+      <description>sudo apt-get install -y python-software-properties sudo add-apt-repository -y ppa:ondrej/php sudo apt-get update -y sudo apt-get install -y $(apt-cache pkgnames | grep php7.1|tr &amp;quot;\n&amp;quot; &amp;quot; &amp;quot;)  See https://www.vultr.com/docs/how-to-install-and-configure-php-70-or-php-71-on-ubuntu-16-04</description>
+    </item>
+    
+    <item>
+      <title>Updating an Debian/Ubuntu OS that is no longer supported</title>
+      <link>https://ismael.casimpan.com/quicktasks-linux/upgrading-unsupported-debian-os/</link>
+      <pubDate>Mon, 30 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-linux/upgrading-unsupported-debian-os/</guid>
+      <description>In our example, we have Debian Squeeze (6.0) and it&amp;rsquo;s been unsupported since Feb 2016. We can no longer install nor update the packages (of course, limited to what&amp;rsquo;s was available when it was last supported) until you point it to another source&amp;hellip;the archives.
+So, in /etc/apt/sources.list, add you will see:
+deb http://ftp.us.debian.org/debian/ squeeze main deb-src http://ftp.us.debian.org/debian/ squeeze main  Replace it with:
+deb http://archive.debian.org/debian squeeze main deb http://archive.debian.org/debian squeeze-lts main  and you can now access &amp;lsquo;apt-get&amp;rsquo; or &amp;lsquo;dpkg&amp;rsquo; as before (but limited to what&amp;rsquo;s in the archive).</description>
+    </item>
+    
+    <item>
+      <title>Updating Debian Kernel Only</title>
+      <link>https://ismael.casimpan.com/quicktasks-linux/updating-debian-kernel-only/</link>
+      <pubDate>Mon, 30 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-linux/updating-debian-kernel-only/</guid>
+      <description>sudo apt-get update sudo apt-get install linux-virtual  See details in https://www.digitalocean.com/community/tutorials/how-to-update-a-digitalocean-server-s-kernel#upgrading-only-the-latest-kernel</description>
+    </item>
+    
+    <item>
+      <title>Upgrade Debian to Higher LTS</title>
+      <link>https://ismael.casimpan.com/quicktasks-linux/upgrade-debian-to-higher-lts/</link>
+      <pubDate>Mon, 30 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-linux/upgrade-debian-to-higher-lts/</guid>
+      <description>do-release-upgrade  See https://help.ubuntu.com/lts/serverguide/installing-upgrading.html</description>
+    </item>
+    
+    <item>
+      <title>Upgrade Single Debian Package Source</title>
+      <link>https://ismael.casimpan.com/quicktasks-linux/upgrade-single-debian-package/</link>
+      <pubDate>Mon, 30 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-linux/upgrade-single-debian-package/</guid>
+      <description>apt-get install --only-upgrade &amp;lt;packagename&amp;gt;  See details in https://askubuntu.com/questions/44122/how-to-upgrade-a-single-package-using-apt-get</description>
+    </item>
+    
+  </channel>
+</rss>

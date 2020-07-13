@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>unsupported on Linux | IT Quicktasks</title>
+    <link>https://ismael.casimpan.com/quicktasks-linux/tags/unsupported/</link>
+    <description>Recent content in unsupported on Linux | IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 30 Sep 2019 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://ismael.casimpan.com/quicktasks-linux/tags/unsupported/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Updating an Debian/Ubuntu OS that is no longer supported</title>
+      <link>https://ismael.casimpan.com/quicktasks-linux/upgrading-unsupported-debian-os/</link>
+      <pubDate>Mon, 30 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-linux/upgrading-unsupported-debian-os/</guid>
+      <description>In our example, we have Debian Squeeze (6.0) and it&amp;rsquo;s been unsupported since Feb 2016. We can no longer install nor update the packages (of course, limited to what&amp;rsquo;s was available when it was last supported) until you point it to another source&amp;hellip;the archives.
+So, in /etc/apt/sources.list, add you will see:
+deb http://ftp.us.debian.org/debian/ squeeze main deb-src http://ftp.us.debian.org/debian/ squeeze main  Replace it with:
+deb http://archive.debian.org/debian squeeze main deb http://archive.debian.org/debian squeeze-lts main  and you can now access &amp;lsquo;apt-get&amp;rsquo; or &amp;lsquo;dpkg&amp;rsquo; as before (but limited to what&amp;rsquo;s in the archive).</description>
+    </item>
+    
+  </channel>
+</rss>

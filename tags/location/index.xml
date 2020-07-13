@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>location on Linux | IT Quicktasks</title>
+    <link>https://ismael.casimpan.com/quicktasks-linux/tags/location/</link>
+    <description>Recent content in location on Linux | IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 30 Sep 2019 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://ismael.casimpan.com/quicktasks-linux/tags/location/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Debian Repos Location</title>
+      <link>https://ismael.casimpan.com/quicktasks-linux/debian-repos-location/</link>
+      <pubDate>Mon, 30 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-linux/debian-repos-location/</guid>
+      <description>/etc/apt/sources.list  More info in https://help.ubuntu.com/community/Repositories/CommandLine</description>
+    </item>
+    
+    <item>
+      <title>Locations of PPA in Ubuntu</title>
+      <link>https://ismael.casimpan.com/quicktasks-linux/locations-of-ppa-ubuntu/</link>
+      <pubDate>Mon, 30 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-linux/locations-of-ppa-ubuntu/</guid>
+      <description>/etc/apt/sources.list.d/  More info in https://askubuntu.com/questions/57326/where-is-the-ppa-sources-config-file</description>
+    </item>
+    
+  </channel>
+</rss>
